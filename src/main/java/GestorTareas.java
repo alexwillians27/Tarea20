@@ -45,7 +45,7 @@ public class GestorTareas {
                     }
                     break;
                 case 3:
-                    System.out.print("Introduce el número de la tarea a eliminar: ");
+                    System.out.print("Introduce el numero a eliminar: ");
                     int indice = Integer.parseInt(scanner.nextLine()) - 1;
                     if (indice >= 0 && indice < tareas.size()) {
                         tareas.remove(indice);
